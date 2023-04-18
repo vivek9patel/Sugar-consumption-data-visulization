@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en' data-theme="light">
+
+<head>
+    <title>Homework #5: Argumentative Vis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body class="flex justify-center">
+    <div class="py-4 px-8 flex flex-col items-center lg:w-5/6">
+        <div class="text-center font-bold text-4xl text-slate-600">America's Sweet Obsession: Do US Citizens Really Care About Sugar Intake?</div>
+        <div class="tet-center text-lg text-slate-600 mt-2">by <a href="https://github.com/vivek9patel" class="underline" target="_blank">vpatel63@asu.edu</a></div>
+        <div class="devider"></div>
+        <div class="w-full flex justify-evenly mt-6">
+            <div class="flex flex-col items-center">
+                <div class="text-center font-bold text-2xl italic text-slate-700">Yes to Healthier Choices!</div>
+                <svg id="lowest-consumption"></svg>
+            </div>
+            <div class="devider-horizontal"></div>
+            <div class="flex flex-col items-center">
+                <div class="text-center font-bold text-2xl italic text-slate-700">No to Restrictive Diets</div>
+                <svg id="highest-consumption"></svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS Files -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>

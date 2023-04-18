@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Domine', 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+.devider{
+    position: relative;
+    width: 70%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.511);
+    margin: 10px 0px;
+}
+
+.devider::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.511);
+    border-radius: 50%;
+    bottom: -5px;
+    left: -5px;
+}
+
+.devider::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.511);
+    border-radius: 50%;
+    bottom: -5px;
+    right: -5px;
+}
+
+.devider-horizontal{
+    position: relative;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 0px 10px;
+}
