@@ -24,7 +24,7 @@ body{
     background-color: rgba(0, 0, 0, 0.511);
     border-radius: 50%;
     bottom: -5px;
-    left: -5px;
+    left: -10px;
 }
 
 .devider::before{
@@ -35,7 +35,7 @@ body{
     background-color: rgba(0, 0, 0, 0.511);
     border-radius: 50%;
     bottom: -5px;
-    right: -5px;
+    right: -10px;
 }
 
 .devider-horizontal{
